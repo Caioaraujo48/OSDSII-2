@@ -20,14 +20,14 @@ namespace OsDsII.api.Services
             _unitOfWork = unitOfWork;
         } 
 
-        public async Task<IEnumerable<Customers>> GetAllCustomersAsync()
+        public async Task<IEnumerable<Customer>> GetAllCustomersAsync()
         {
-            IEnumerable<Customers> customers = await _customersRepository.GetAllCustomersAsync();
+            IEnumerable<Customer> customers = await _customersRepository.GetAllCustomersAsync();
             return customers;
         }
         public async Task<Customer> GetCustomerByIdAsync(int id)
         {
-            Customers customer = await _custumersRepository.GetCustomerByIdAsync(id);
+            Customer customer = await _customersRepository.GetCustomerByIdAsync(id);
             
             if (customer == null)
             {
@@ -38,7 +38,7 @@ namespace OsDsII.api.Services
 
         public async Task<Customer> CreateCustomerAsync([FromBody] Customer newCustomer)
         {
-            Customers currentCustomer = await _custumersRepository.CreateCustomerAsync(newCustomer);
+            Customer currentCustomer = await _customersRepository.CreateCustomerAsync(newCustomer);
 
             if (currentCustomer != null)
             {
@@ -49,9 +49,9 @@ namespace OsDsII.api.Services
             return currentCustomer;
         }
 
-        public async Task<Customers> UpdateCustomerAsync(int id, [FromBody] Customer customer)
+        public async Task<Customer> UpdateCustomerAsync(int id, [FromBody] Customer customer)
         {
-            Customers currentCustomer = await _custumersRepository.UpdateCustomerAsync(id, customer);
+            Customer currentCustomer = await _customersRepository.UpdateCustomerAsync(id, customer);
             if (currentCustomer == null)
             {
                 throw new Exception("Não encontrado");
@@ -67,7 +67,7 @@ namespace OsDsII.api.Services
 
         public async Task<Customer> DeleteCustomerAsync(int id)
         {
-            Customers customer = await _custumersRepository.DeleteCustomerAsync(id);
+            Customer customer = await _customersRepository.DeleteCustomerAsync(id);
 
             if (customer == null)
             {

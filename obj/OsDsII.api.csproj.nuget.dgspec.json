@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\3DS\\OSDSII\\OsDsII.api\\OsDsII.api.csproj": {}
+    "A:\\3DS\\Projetos\\OSDSII\\OsDsII.api\\OsDsII.api.csproj": {}
   },
   "projects": {
-    "A:\\3DS\\OSDSII\\OsDsII.api\\OsDsII.api.csproj": {
+    "A:\\3DS\\Projetos\\OSDSII\\OsDsII.api\\OsDsII.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\3DS\\OSDSII\\OsDsII.api\\OsDsII.api.csproj",
+        "projectUniqueName": "A:\\3DS\\Projetos\\OSDSII\\OsDsII.api\\OsDsII.api.csproj",
         "projectName": "OsDsII.api",
-        "projectPath": "A:\\3DS\\OSDSII\\OsDsII.api\\OsDsII.api.csproj",
+        "projectPath": "A:\\3DS\\Projetos\\OSDSII\\OsDsII.api\\OsDsII.api.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "A:\\3DS\\OSDSII\\OsDsII.api\\obj\\",
+        "outputPath": "A:\\3DS\\Projetos\\OSDSII\\OsDsII.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

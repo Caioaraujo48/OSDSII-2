@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6R21s0zMIYOjoynRDVCvX8Fj/hGS0HLVyrzFLCd6KPZ/na7Sr4r2Mg/1CHkBlA0JouIpiqt8dEJVgHWqhwxNjQ==",
+  "dgSpecHash": "kNADduVWtdh6iA70C4mp0WoPEZbAC4NlAfUbUUET2XEzepxMEIwFJpxjG1GjhGJW+xibRuKyEgz3ErSUNLYUbw==",
   "success": true,
-  "projectFilePath": "A:\\3DS\\OSDSII\\OsDsII.api\\OsDsII.api.csproj",
+  "projectFilePath": "A:\\3DS\\Projetos\\OSDSII\\OsDsII.api\\OsDsII.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etechas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.8\\microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
@@ -25,6 +25,7 @@
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\etechas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

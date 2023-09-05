@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OsDsII.api.data;
-
+using OsDsII.api.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddScoped<ICustomersRepository, CustumersRepository>();
+builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
 builder.Services.AddScoped<ICustomersService, CustumersService>();
 builder.Services.AddScoped<IWorkOfService, WorkOfService>();
 

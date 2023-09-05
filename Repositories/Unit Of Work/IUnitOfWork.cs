@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using OsDsII.api.Repositories.UnitOfWork;
 
-namespace OsDsII.api.Repositories.UnitOfWork : IUnitOfWork
+namespace OsDsII.api.Repositories.UnitOfWork
 {
     public interface IUnitOfWork
     {

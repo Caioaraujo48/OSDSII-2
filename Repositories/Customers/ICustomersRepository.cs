@@ -4,10 +4,10 @@ namespace OsDsII.api.Repositories.Interfaces;
 {
     public interface ICustomersRepository
     {
-        public Task<IEnumerable<Customers>> GetAllCustomersAsync();
-        public Task<Customers> GetCustomerByIdAsync(int id);
-        public Task<Customers> CreateCustomerAsync(Customers newCustomer);
-        public Task<Customers> UpdateCustomerAsync(int id, Customers customer);
-        public Task<Customers> DeleteCustomerAsync(int id);
+        public Task<IEnumerable<Customer>> GetAllCustomersAsync();
+        public Task<Customer> GetCustomerByIdAsync(int id);
+        public Task<Customer> CreateCustomerAsync(Customer newCustomer);
+        public Task<Customer> UpdateCustomerAsync(int id, Customer customer);
+        public Task<Customer> DeleteCustomerAsync(int id);
     }
 }

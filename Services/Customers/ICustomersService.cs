@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using OsDsII.api.Models;
 
 namespace OsDsII.api.Services.Interfaces
@@ -9,9 +10,9 @@ namespace OsDsII.api.Services.Interfaces
     public interface ICustomersService
     {
         public Task<IEnumerable<Customer>> GetAllCustomersAsync();
-        public Task<Customers> GetCustomerByIdAsync(int id);
-        public Task<Customers> CreateCustomerAsync([FromBody] Customer newCustomer);
-        public Task<Customers> UpdateCustomerAsync(int id, [FromBody] Customer customer);
-        public Task<Customers> DeleteCustomerAsync(int id);
+        public Task<Customer> GetCustomerByIdAsync(int id);
+        public Task<Customer> CreateCustomerAsync([FromBody] Customer newCustomer);
+        public Task<Customer> UpdateCustomerAsync(int id, [FromBody] Customer customer);
+        public Task<Customer> DeleteCustomerAsync(int id);
     }
 }
